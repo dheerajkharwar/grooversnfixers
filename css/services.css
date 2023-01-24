@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    overflow-x: hidden;
+  }
+  
+.top_head{
+    margin: 0px;
+    background-color: rgb(67, 99, 67);
+    width: 100%;
+    font-size: 2.5vw;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+
+}
+
+.active4 {
+    background-color: #04AA6D;
+  }  
+
+table{
+    width: 97%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table tr td,table tr th{
+    border-bottom: 1px solid black;
+    padding: 8px 0px;
+    padding-left: 20px;
+}
+th{
+    background-color: whitesmoke;
+}
+td{
+    background-color: white;
+}
+
+.div5{
+    width: 65%;
+}
+img{
+    width: 95%;
+    height: 60vh;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.div4 {
+    width: 95%;
+    text-align: justify;
+    padding: 0px 10px;
+    border: 1px solid thistle;
+    margin-left: 25px;
+    color: rgba(22, 22, 22, 0.966);
+}
+
+.div3{
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.div2{
+    
+    border: 1px solid rgb(228, 221, 221);
+    margin-bottom: 20px;
+}
+.div2 a{
+    text-decoration: none;
+    color: black;
+}
+.div2 a:hover{
+    color: white;
+    background-color: black;
+}
+.div3 h3{
+    border-bottom: 3px solid lightskyblue;
+    color: skyblue;
+    padding-left: 20px;
+}
+
+.div3 p{
+    border-bottom: 1px dotted gray;
+    padding-left: 20px;
+}
+.div5, .div3{
+    float: left;
+}
+#a{
+    color: skyblue;
+}
+#email{
+    border-bottom: none;
+}

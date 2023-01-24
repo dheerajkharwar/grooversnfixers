@@ -1,0 +1,128 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    overflow-x: hidden;
+}
+
+.top_head {
+    margin: 0px;
+    background-color: rgb(67, 99, 67);
+    width: 100%;
+    font-size: 2.5vw;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+
+}
+
+.active3 {
+    background-color: #04AA6D;
+}
+
+.div {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.div1 {
+    width: 45%;
+    box-sizing: border-box;
+}
+
+.div2 {
+    width: 45%;
+}
+
+h2 {
+    border-bottom: 2px solid black;
+    font-size: 2.5vw;
+}
+.div2 th, .div2 td{
+    font-size: 1.2vw;
+}
+
+img {
+    width: 100%;
+    height: 50vh;
+    border: 2px solid rgb(197, 179, 179);
+    padding: 5px;
+    box-sizing: border-box;
+}
+img:hover {
+    animation: zoom-in-zoom-out 3s ease infinite;
+  }
+  
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1.2, 1.2);
+    }
+  
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+  
+    100% {
+      transform: scale(1.2, 1.2);
+    }
+  }
+.desc {
+    width: 100%;
+}
+
+.div1,
+.div2 {
+    float: left;
+    overflow: hidden;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 50%;
+    padding: 8px;
+    text-align: left;
+
+}
+
+tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+#desc_table,
+#desc_table1 {
+    width: 95%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.desc a {
+    text-decoration: none;
+    animation: myanimation 1s infinite;
+    font-size: small;
+    border-radius: 50px;
+    padding: 5px 5px;
+}
+
+@keyframes myanimation {
+    from {
+        color: red;
+        background-color: black;
+    }
+
+    to {
+        color: black;
+        background-color: red;
+    }
+}

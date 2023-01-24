@@ -1,0 +1,109 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    background-color: aliceblue;
+    overflow-x: hidden;
+  }
+  
+.top_head{
+    margin: 0px;
+    background-color: rgb(67, 99, 67);
+    width: 100%;
+    font-size: 2.5vw;
+    color: white;
+    padding: 10px 20px;
+    text-align: left;
+
+}
+
+.active5 {
+  background-color: #04AA6D;
+}
+
+.div_main{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.div1{
+    width: 480px;
+    margin-left: 30px;
+}
+.div1 img{
+    width: 100%;
+    margin-top: 30px;
+}
+.div2{
+    width: 450px;
+    margin-left: 30px;
+}
+.div1, .div2{
+    float: left;
+}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  form img{
+    width: 20%;
+  }
+  .cont_person{
+    width: 100%;
+    text-align: left;
+    padding: 10px 25px;
+    margin-top: 50px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

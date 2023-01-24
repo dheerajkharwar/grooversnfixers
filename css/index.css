@@ -1,0 +1,116 @@
+body {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.active1 {
+  background-color: #04AA6D;
+}
+
+.top_head1{
+  padding-top: 20px;
+}
+
+.products {
+  background-color: #eee;
+  text-align: center;
+
+}
+
+.products .product {
+  background-color: #fff;
+  display: inline-table;
+  margin: 15px;
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgb(197, 179, 179);
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+
+.product img {
+  text-align: center;
+  margin: 10px;
+  width: 90%;
+  height: 30vh;
+}
+
+
+.product img:hover {
+  animation: zoom-in-zoom-out 3s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1.5, 1.5);
+  }
+
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+
+  100% {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.para p{
+  width: 95%;
+  text-align: justify;
+  margin: 2.5% 2.5% 0%;
+}
+
+.glimpse {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.glimpse h2 {
+  font-size: 2vw;
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+#glimp {
+  color: #035b9f;
+  border-bottom: 2px solid #035b9f;
+}
+
+#glimp_of {
+  margin-left: -10px;
+  border-bottom: 2px solid black;
+}
+
+.ceo,
+.est_year,
+.comp_nature,
+.no_of_emp {
+  display: inline-table;
+  width: 21%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.a{
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.b{
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.glimpse img {
+  width: 25%;
+  height: auto;
+}
